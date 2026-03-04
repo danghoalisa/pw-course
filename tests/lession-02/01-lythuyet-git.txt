@@ -1,0 +1,16 @@
+
+// GIẢI THÍCH CÁC CÂU LỆNH
+// Khởi tạo repo local
+git init
+
+//Tạo repo GitHub và liên kết tới repo local
+git remote add origin <url>
+
+// Thêm từng file vào staging area
+git add <file name>
+
+// Thêm tất cả file còn lại vào staging area
+git add .
+
+// Commit file
+git commit -m ”<message>”

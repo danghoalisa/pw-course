@@ -1,0 +1,50 @@
+ 
+A. Tạo 3 file:  file1, file2, file3
+1. Vùng Working Directory:
+    file 1, file 2, file 3
+2. Vùng staging area
+     
+3. Vùng Repository
+
+------------------------------------
+B. Chạy lệnh: git init
+1. Vùng Working Directory:
+    file 1, file 2, file 3
+2. Vùng staging area
+     
+3. Vùng Repository
+
+-------------------------------------
+C. Chạy lệnh: git commit -m”init project”
+1. Vùng Working Directory:
+    file 1, file 2, file 3
+2. Vùng staging area
+     
+3. Vùng Repository
+
+-------------------------------------
+D. Chạy lệnh: git add file1
+1. Vùng Working Directory:
+     file 2, file 3
+2. Vùng staging area
+     file1
+3. Vùng Repository
+
+--------------------------------------
+E. Chạy lệnh: git commit -m”add file1”
+1. Vùng Working Directory:
+     file 2, file 3
+2. Vùng staging area
+     
+3. Vùng Repository
+    file1
+
+---------------------------------------
+F. Chạy lệnh: git commit -m”add file”
+1. Vùng Working Directory:
+     file 2, file 3
+2. Vùng staging area
+     
+3. Vùng Repository
+    file1
+    
