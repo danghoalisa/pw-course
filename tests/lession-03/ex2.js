@@ -1,14 +1,14 @@
 
-const ChieuCao = 150;
+const chieuCao = 150;
 
-const SoLeChieuCao = ChieuCao - 100;
-console.log(SoLeChieuCao + "cm");
+const soLeChieuCao = chieuCao - 100;
+const canNangLyTuong = soLeChieuCao * 9 / 10;
+const canNangToiDa = soLeChieuCao;
+const canNangToiThieu = soLeChieuCao * 8 / 10;
 
-const Cannanglytuong = SoLeChieuCao * 9 / 10;
-console.log(Cannanglytuong + "kg");
+if (100 < chieuCao && chieuCao < 200) {
 
-const Cannangtoida = SoLeChieuCao;
-console.log(Cannangtoida + "kg");
-
-const Cannangtoithieu = SoLeChieuCao * 8 / 10;
-console.log(Cannangtoithieu + "kg");
+    console.log(soLeChieuCao + "cm" + " " + canNangToiDa + "kg" + " " + canNangToiThieu + "kg");
+}
+else
+    console.log("Chiều cao vượt mức cho phép");
